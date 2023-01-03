@@ -48,10 +48,12 @@ public class SampleLambdas {
                 action.accept(p);
             }
         });*/
+        //For each method does not guarantee the order in which elements would be processed.
         people.stream().filter(personPredicate).forEach(action);
     }
 
     private static void performConditionally(List<Person> people, Consumer<Person> p) {
+        //The forEach order is same as that of the collections iterator
         people.forEach(p);
     }
 }
