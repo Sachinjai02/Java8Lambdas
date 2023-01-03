@@ -21,9 +21,9 @@ public class SampleLambdas {
         /*
 
         //create a method that prints all elements in the list
-        printList(people, p -> System.out.println(p));
+        performConditionally(people, p -> System.out.println(p));
         //Create a method that prints all people having last name beginning with P
-        printList(people, p -> {
+        performConditionally(people, p -> {
             if(p.getLastName().startsWith("P")) {
                 System.out.println(p);
             }
@@ -31,23 +31,27 @@ public class SampleLambdas {
         */
 
         //Using Predicates
+        Consumer<Person> printPerson = p -> System.out.println(p);
         // print all
         System.out.println("Printing all persons");
-        printList(people, p -> true);
+        performConditionally(people, p -> true, printPerson);
         //print persons whose last name begin with P
         System.out.println("\nPrinting all persons whose last name begins with P");
-        printList(people, (Predicate<Person>)  p -> p.getLastName().startsWith("P"));
+        performConditionally(people, p -> p.getLastName().startsWith("P"), printPerson);
     }
 
-    private static void printList(List<Person> people, Predicate<Person> personPredicate) {
-        people.forEach( p -> {
+    private static void performConditionally(List<Person> people,
+                                             Predicate<Person> personPredicate,
+                                             Consumer<Person> action) {
+       /* people.forEach( p -> {
             if (personPredicate.test(p)) {
-                System.out.println(p);
+                action.accept(p);
             }
-        });
+        });*/
+        people.stream().filter(personPredicate).forEach(action);
     }
 
-    private static void printList(List<Person> people, Consumer<Person> p) {
+    private static void performConditionally(List<Person> people, Consumer<Person> p) {
         people.forEach(p);
     }
 }

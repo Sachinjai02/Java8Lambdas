@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6b98f1-1ae7-4b73-918e-92385a3604b1" name="Changes" comment="1. Always a good practice to add (though optional) @FunctionalInterface for interfaces meant to be used as Lamdas.&#10;2. Functional Interfaces can have any number of default methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/SampleLambdas.java" afterDir="false" />
+    <list default="true" id="ed6b98f1-1ae7-4b73-918e-92385a3604b1" name="Changes" comment="Lambdas with Collections (Comparator sort, predicate)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/SampleLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/SampleLambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,7 @@
       <updated>1672676472844</updated>
       <workItem from="1672676475009" duration="115000" />
       <workItem from="1672676715355" duration="2573000" />
-      <workItem from="1672727358008" duration="5512000" />
+      <workItem from="1672727358008" duration="6336000" />
     </task>
     <task id="LOCAL-00001" summary="OOP way to pass and execute a behavior via interface and its implementation">
       <created>1672680232676</created>
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672730171460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lambdas with Collections (Comparator sort, predicate)">
+      <created>1672733614753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672733614753</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +178,7 @@
     <MESSAGE value="Difference between an annonymous class and lambda implementation" />
     <MESSAGE value="type inference in Lambdas" />
     <MESSAGE value="1. Always a good practice to add (though optional) @FunctionalInterface for interfaces meant to be used as Lamdas.&#10;2. Functional Interfaces can have any number of default methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Always a good practice to add (though optional) @FunctionalInterface for interfaces meant to be used as Lamdas.&#10;2. Functional Interfaces can have any number of default methods" />
+    <MESSAGE value="Lambdas with Collections (Comparator sort, predicate)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambdas with Collections (Comparator sort, predicate)" />
   </component>
 </project>
