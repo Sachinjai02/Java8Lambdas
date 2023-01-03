@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6b98f1-1ae7-4b73-918e-92385a3604b1" name="Changes" comment="Lambdas with Collections (Comparator sort, predicate)">
+    <list default="true" id="ed6b98f1-1ae7-4b73-918e-92385a3604b1" name="Changes" comment="Further passing action (Consumer) dynamically into the function">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/ExceptionHandlingInLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/SampleLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/SampleLambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SampleLambdas">
+  <component name="RunManager" selected="Application.ExceptionHandlingInLambdas">
+    <configuration name="ExceptionHandlingInLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.ExceptionHandlingInLambdas" />
+      <module name="JavaLambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Greeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.Greeter" />
       <module name="JavaLambdas" />
@@ -102,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandlingInLambdas" />
         <item itemvalue="Application.SampleLambdas" />
         <item itemvalue="Application.RunnableLamdaDemo" />
         <item itemvalue="Application.TypeInferenceDemo" />
@@ -119,7 +133,7 @@
       <updated>1672676472844</updated>
       <workItem from="1672676475009" duration="115000" />
       <workItem from="1672676715355" duration="2573000" />
-      <workItem from="1672727358008" duration="6336000" />
+      <workItem from="1672727358008" duration="7032000" />
     </task>
     <task id="LOCAL-00001" summary="OOP way to pass and execute a behavior via interface and its implementation">
       <created>1672680232676</created>
@@ -156,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672733614753</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Further passing action (Consumer) dynamically into the function">
+      <created>1672734424148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672734424149</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +200,7 @@
     <MESSAGE value="type inference in Lambdas" />
     <MESSAGE value="1. Always a good practice to add (though optional) @FunctionalInterface for interfaces meant to be used as Lamdas.&#10;2. Functional Interfaces can have any number of default methods" />
     <MESSAGE value="Lambdas with Collections (Comparator sort, predicate)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambdas with Collections (Comparator sort, predicate)" />
+    <MESSAGE value="Further passing action (Consumer) dynamically into the function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Further passing action (Consumer) dynamically into the function" />
   </component>
 </project>
